@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "daruma-binding"
+version = "0.0.0"
+description = "Prediction of binding regions within intrinsically disordered regions of proteins"
+readme = "README.md"
+dependencies = [] # TODO: Add validated runtime dependencies and requires-python.
+
+[tool.setuptools.packages.find]
+where = ["src"]

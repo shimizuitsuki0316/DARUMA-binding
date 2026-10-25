@@ -1,0 +1,9 @@
+# Template only. Pin the tested Python and dependency versions before release.
+name: daruma-binding
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+      - -e .
